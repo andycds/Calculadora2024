@@ -9,5 +9,7 @@ public class CalculadoraTeste {
 
         System.out.println(calc.somarComPreferido(
                 Double.parseDouble(JOptionPane.showInputDialog("Digite seu número para somar com o preferido"))));
+
+        System.out.println(calc.subtrair(10, 3));
     }
 }
